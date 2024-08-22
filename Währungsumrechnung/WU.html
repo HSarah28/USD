@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einfaches Formular</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <h1>Währungsrechner</h1> 
+</head>
+
+<body>
+  
+    <div class="container">
+        <form id="waehrungsForm">
+            <label for="betrag">Betrag:</label>
+            <input type="number" id="betrag" name="betrag" placeholder="Geben Sie einen Betrag ein" required>
+ 
+            <label for="waehrung">Währung:</label>
+            <select id="waehrung" name="waehrung">
+                <option value="eur">Euro (EUR)</option>
+                <option value="usd">US-Dollar (USD)</option>
+                <option value="gbp">Britisches Pfund (GBP)</option>
+            </select>
+ 
+            <button type="submit">Berechnen</button>
+        </form>
+ 
+        <div id="ergebnis">
+            <!-- Das Ergebnis wird hier angezeigt -->
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

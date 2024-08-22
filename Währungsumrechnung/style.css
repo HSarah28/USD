@@ -1,0 +1,83 @@
+/* Allgemeines Styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Modernere Schriftart */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Hellgrauer Hintergrund für bessere Kontraste */
+    margin: 0;
+    padding: 20px; /* Etwas Puffer am Rand */
+    box-sizing: border-box;
+}
+
+/* Formular-Container */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px; /* Mehr abgerundete Ecken */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Weichere und größere Schatten */
+    max-width: 400px; /* Begrenzung der Breite */
+    width: 100%;
+}
+
+/* Formular-Elemente */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold; /* Fettgedruckte Labels */
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Größere Schrift für bessere Lesbarkeit */
+    background-color: #f9f9f9; /* Leichtes Grau für die Eingabefelder */
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Blaues Highlight bei Fokus */
+    outline: none; /* Entfernt den Standard-Fokusrahmen */
+    background-color: #ffffff; /* Weißes Hintergrund bei Fokus */
+}
+
+/* Button-Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ergebnis-Anzeige */
+#ergebnis {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #e9f7fe;
+    border-radius: 5px;
+    border: 1px solid #b3e5fc;
+}
