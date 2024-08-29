@@ -2,18 +2,28 @@
 body {
     font-family: 'Roboto', sans-serif; /* Modernere Schriftart */
     display: flex;
+    flex-direction: column; /* Elemente untereinander anordnen */
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f4f8; /* Hellgrauer Hintergrund für bessere Kontraste */
+    background-color: #d6e6f7; /* Hellgrauer Hintergrund für bessere Kontraste */
     margin: 0;
     padding: 20px; /* Etwas Puffer am Rand */
     box-sizing: border-box;
 }
 
+/* Überschrift-Styling */
+h1 {
+    font-size: 36px; /* Größere Schriftgröße für die Überschrift */
+    color: #000000; /* Gleiche Farbe wie der Button und das Ergebnis */
+    margin-bottom: 20px; /* Abstand zum Formular */
+    text-align: center; /* Zentrierter Text */
+    font-weight: bold; /* Fettgedruckte Schrift */
+}
+
 /* Formular-Container */
 .container {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     padding: 30px;
     border-radius: 10px; /* Mehr abgerundete Ecken */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Weichere und größere Schatten */
